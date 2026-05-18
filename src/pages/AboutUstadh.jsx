@@ -6,7 +6,7 @@ import useScrollAnimation from '../hooks/useScrollAnimation.js'
 const credentials = [
   'Hafidhul Quran (Memorized the Entire Quran)',
   'Fluent in Arabic Language (Ihdadiyy & Thanawiyy Certified)',
-  'Currently Studying Arabic Education — LASU',
+  'BSc Arabic Education In Progress',
   'Certified Tajweed Expert',
 ]
 

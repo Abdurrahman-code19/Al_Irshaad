@@ -139,11 +139,10 @@ function StatsCounter() {
   const stats = [
     { label: 'Students Taught', value: counts.students, suffix: '+', icon: GraduationCap },
     { label: 'Years Experience', value: counts.years, suffix: '+', icon: Star },
-    { label: 'Arabic Fluency', value: 'Ihdadiyy', suffix: ' & Thanawiyy', icon: BookOpen, static: true },
   ]
 
   return (
-    <div ref={ref} className="grid grid-cols-3 gap-4 md:gap-8 max-w-3xl mx-auto">
+    <div ref={ref} className="grid grid-cols-2 gap-4 md:gap-8 max-w-xl mx-auto">
       {stats.map((stat) => {
         const Icon = stat.icon
         return (
@@ -199,19 +198,19 @@ function Testimonials() {
   const [current, setCurrent] = useState(0)
   const testimonials = [
     {
-      text: "Ustadh Adebalogun changed my entire relationship with the Quran. His tajweed classes are detailed yet easy to follow. I never thought I could recite with such confidence!",
-      name: "Fatima Al-Rashid",
-      role: "Quran Student, 2 years",
+      text: "My Arabic improved so fast! Best classes ever.",
+      name: "Jalaludeen",
+      role: "Age 19",
     },
     {
-      text: "The Arabic language program is exceptional. In just 6 months, I went from zero Arabic to reading and understanding basic Quranic verses. Ustadh's teaching style is patient and thorough.",
-      name: "Omar Hassan",
-      role: "Arabic Student, 6 months",
+      text: "I started as a complete beginner. Now I can read Arabic fluently. The teacher's patience and teaching style made all the difference.",
+      name: "Awwal",
+      role: "Age 15",
     },
     {
-      text: "My son has been memorizing Quran with Ustadh Adebalogun for over a year. The progress is remarkable. Not just memorization, but he truly understands the meaning. Barakallahufeek!",
-      name: "Aisha Mahmoud",
-      role: "Parent of Hifdh Student",
+      text: "I love my Quran class! My teacher is very kind and helps me when I make mistakes. I have learned 5 new surahs this year.",
+      name: "Al-Ameen",
+      role: "Age 10",
     },
   ]
 

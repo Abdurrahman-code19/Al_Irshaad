@@ -4,12 +4,14 @@ import Navbar from './components/Navbar.jsx'
 import MobileNav from './components/MobileNav.jsx'
 import Footer from './components/Footer.jsx'
 import IslamicPattern from './components/IslamicPattern.jsx'
+import ScrollToTop from './components/ScrollToTop.jsx'
 
 export default function Layout() {
   const location = useLocation()
 
   return (
     <div className="min-h-screen relative">
+      <ScrollToTop />
       <IslamicPattern />
       <Navbar />
       <main className="relative z-10 pt-0 md:pt-20 pb-safe">
